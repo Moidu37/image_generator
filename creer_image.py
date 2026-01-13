@@ -6,8 +6,8 @@ from datetime import datetime
 
 heure_debut = datetime.now()
 
-width, height = 100, 100
-num_images = 100000
+width, height = 5, 5
+num_images = 10
 folder = "images"
 os.makedirs(folder, exist_ok=True)
 
@@ -27,4 +27,5 @@ for _ in range(num_images):
 heure_fin = datetime.now()
 temps_total = heure_fin - heure_debut
 print(f"{num_images} images générées dans '{folder}' !")
+
 print(f"Code exécuté en {temps_total} !")
