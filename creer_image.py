@@ -7,7 +7,7 @@ from datetime import datetime
 heure_debut = datetime.now()
 
 width, height = 5, 5
-num_images = 100000
+num_images = 500000
 folder = "images"
 os.makedirs(folder, exist_ok=True)
 
